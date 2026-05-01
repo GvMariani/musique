@@ -9,6 +9,7 @@ License:	GPLv3+
 Url:		https://flavio.tordini.org/musique
 Source0:	https://github.com/flaviotordini/musique/archive/%{name}-%{version}.tar.bz2
 Patch0:		musique-taglib2.patch
+BuildRequires:	make
 BuildRequires:	qmake-qt6
 BuildRequires:	qt6-qttools-linguist-tools
 BuildRequires:	qt6-qtdeclarative
